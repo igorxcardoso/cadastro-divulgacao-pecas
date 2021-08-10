@@ -14,3 +14,18 @@
 	<iostream>
 	"dominios.h"
 
+1628608503 source:/home/basis/Documentos/cadastro-divulgacao-pecas/src/dominios.cpp
+	<string>
+	<stdexcept>
+	<ctype.h>
+	<vector>
+	"dominios.h"
+
+1628598313 /home/basis/Documentos/cadastro-divulgacao-pecas/src/dominios.h
+	<iostream>
+	<string>
+
+1628608483 source:/home/basis/Documentos/cadastro-divulgacao-pecas/src/main.cpp
+	<iostream>
+	"dominios.h"
+

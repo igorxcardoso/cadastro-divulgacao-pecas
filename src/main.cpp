@@ -17,7 +17,7 @@ int main(void) {
     Email email;
 
     cout << "AAAAAAA";
-    email.setValor("LL1810@igor.");
+    email.setValor("LL1810@igor.com");
 
     cout << email.getValor();
 

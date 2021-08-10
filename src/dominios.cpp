@@ -94,17 +94,16 @@ bool Email::validarValor(string valor) {
     int i, parte_local=0, dominio=0, tamanho=valor.length();
     bool flag=false;
 
-    if(valor[0] != '.' && valor[tamanho-1]) {
+    if(valor[0] != '.' && valor[tamanho-1] != '.') {
         for(i = 0; i < tamanho; i++) {
-            if(valor[i] != '@' && flag == false)
+            if(valor[i] != '@' && !flag)
                 parte_local++;
             else
                 dominio++;
                 flag = true;
         }
 
-        if(parte_local <= 64 && dominio <= 255)
-            return true;
+        if(parte_local <= 64 && dominio <= 255) return true;
     }
     throw invalid_argument("Erro no parametro da classe Email.");
 }
@@ -114,6 +113,8 @@ void Email::setValor(string valor) {
     cout << "Fioiii";
     this->email = valor;
 }
+
+
 
 
 
