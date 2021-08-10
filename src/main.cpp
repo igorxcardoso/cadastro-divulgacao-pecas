@@ -14,10 +14,12 @@ int main(void) {
     Cargo cargo;
     Data data;
     Codigo codigo;
+    Email email;
 
-    codigo.setValor("LL1810");
+    cout << "AAAAAAA";
+    email.setValor("LL1810@igor.");
 
-    cout << cargo.getValor();
+    cout << email.getValor();
 
     return 0;
 }
