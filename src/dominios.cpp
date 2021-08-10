@@ -62,12 +62,44 @@ void Classificacao::setValor(string classificacao) {
 
 // Codigo
 bool Codigo::validarValor(string valor) {
+    int i, maiuscula=0, numero=0, tamanho = valor.length();
 
+    if(tamanho == 6) {
+        for(i = 0; i < tamanho; i++) {
+            if(valor[i] >= 65 && valor[i] <= 90) maiuscula++;
+            else if(valor[i] >= 48 && valor[i] <= 57) numero++;
+        }
+
+        if(maiuscula == 2 && numero == 4) return true;
+    }
+    throw invalid_argument("Erro no parametro da classe Codigo.");
 }
+
 void Codigo::setValor(string valor) {
     validarValor(valor);
     this->codigo = valor;
 }
 
 //Data
+bool Data::validarValor(string valor) {
+    return true;
+}
+void Data::setValor(string valor) {
+    validarValor(valor);
+    this->data = valor;
+}
+
+
+//Email
+bool Email::validarValor(string valor) {
+    return true;
+}
+void Email::setValor(string valor) {
+    validarValor(valor);
+    this->email = valor;
+}
+
+
+
+
 

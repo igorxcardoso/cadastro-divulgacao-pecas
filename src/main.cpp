@@ -12,8 +12,10 @@ int main(void) {
     Classificacao classificacao;
     Capacidade capacidade;
     Cargo cargo;
+    Data data;
+    Codigo codigo;
 
-    cargo.setValor("ator");
+    codigo.setValor("LL1810");
 
     cout << cargo.getValor();
 

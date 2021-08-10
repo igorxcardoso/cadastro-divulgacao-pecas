@@ -50,10 +50,10 @@ class Classificacao {
 };
 
 class Codigo {
-    public:
+    private:
         string codigo;
         bool validarValor(string);
-    private:
+    public:
         void setValor(string);
 		string getValor() const {
             return codigo;
@@ -61,16 +61,30 @@ class Codigo {
 };
 
 
-
 class Data {
-    public:
-        string data;
-
     private:
+        string data;
+        bool validarValor(string);
+
+    public:
+        void setValor(string);
+		string getValor() const {
+            return data;
+		}
 };
 
 
+class Email {
+    private:
+        string email;
+        bool validarValor(string);
 
+    public:
+        void setValor(string);
+            string getValor() const {
+                return email;
+            }
+};
 
 
 
