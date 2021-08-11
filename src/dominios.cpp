@@ -96,14 +96,10 @@ bool Email::validarValor(string valor) {
 
     if(valor[0] != '.' && valor[tamanho-1] != '.') {
         for(i = 0; i < tamanho; i++) {
-<<<<<<< HEAD
             if(valor[i] != '@' && !flag)
                 parte_local++;
-            else
-=======
-            if(valor[i] != '@' && flag == false) parte_local++;
+            else if(valor[i] != '@' && flag == false) parte_local++;
             else {
->>>>>>> 8f09e4de0a146d61091abd7746bb8e23a85fc0e2
                 dominio++;
                 flag = true;
             }
@@ -137,12 +133,7 @@ bool Horario::validarValor(string valor) {
     throw invalid_argument("Erro no parametro da classe Horario.");
 }
 
-<<<<<<< HEAD
-
-
-=======
 void Horario::setValor(string valor) {
     validarValor(valor);
     this->horario = valor;
 }
->>>>>>> 8f09e4de0a146d61091abd7746bb8e23a85fc0e2

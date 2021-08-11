@@ -86,11 +86,6 @@ class Email {
             }
 };
 
-
-<<<<<<< HEAD
-class
-
-=======
 class Horario {
     private:
         string horario;
@@ -102,7 +97,6 @@ class Horario {
                 return horario;
             }
 };
->>>>>>> 8f09e4de0a146d61091abd7746bb8e23a85fc0e2
 
 
 #endif // DOMINIOS_H_INCLUDED
