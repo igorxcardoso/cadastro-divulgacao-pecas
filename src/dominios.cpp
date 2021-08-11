@@ -96,11 +96,17 @@ bool Email::validarValor(string valor) {
 
     if(valor[0] != '.' && valor[tamanho-1] != '.') {
         for(i = 0; i < tamanho; i++) {
+<<<<<<< HEAD
             if(valor[i] != '@' && !flag)
                 parte_local++;
             else
+=======
+            if(valor[i] != '@' && flag == false) parte_local++;
+            else {
+>>>>>>> 8f09e4de0a146d61091abd7746bb8e23a85fc0e2
                 dominio++;
                 flag = true;
+            }
         }
 
         if(parte_local <= 64 && dominio <= 255) return true;
@@ -114,9 +120,29 @@ void Email::setValor(string valor) {
     this->email = valor;
 }
 
+// 00, 01, 02, 03, 04, 05
+// Horario
+bool Horario::validarValor(string valor) {
+    bool flag = false;
+
+    if(velor.length() == 5) {
+        if(valor[0] == '2' && (valor[1] >= 48 && valor[1] <= 51)) 
+            flag = true;
+
+        else if(valor[0] == '0' || valor[0] == '1')
+            if(valor[1] >= 48 && valor[1] <= 57)
+                flag = true;
+    }
+
+    throw invalid_argument("Erro no parametro da classe Horario.");
+}
+
+<<<<<<< HEAD
 
 
-
-
-
-
+=======
+void Horario::setValor(string valor) {
+    validarValor(valor);
+    this->horario = valor;
+}
+>>>>>>> 8f09e4de0a146d61091abd7746bb8e23a85fc0e2
