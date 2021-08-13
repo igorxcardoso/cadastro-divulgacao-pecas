@@ -66,8 +66,12 @@ bool Codigo::validarValor(string valor) {
 
     if(tamanho == 6) {
         for(i = 0; i < tamanho; i++) {
-            if(valor[i] >= 65 && valor[i] <= 90) maiuscula++;
-            else if(valor[i] >= 48 && valor[i] <= 57) numero++;
+            if(valor[i] >= 65 && valor[i] <= 90) {
+                maiuscula++;
+            }
+            else if(valor[i] >= 48 && valor[i] <= 57) {
+                numero++;
+            }
         }
 
         if(maiuscula == 2 && numero == 4) return true;
@@ -100,6 +104,12 @@ void Email::setValor(string valor) {
 }
 
 
-
-
+//Horario
+bool Horario::validarValor(string valor) {
+    return true;
+}
+void Horario::setValor(string valor) {
+    validarValor(valor);
+    this->horario = valor;
+}
 

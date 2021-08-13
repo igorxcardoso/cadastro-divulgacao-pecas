@@ -86,6 +86,18 @@ class Email {
             }
 };
 
+class Horario {
+    private:
+        string horario;
+        bool validarValor(string);
+
+    public:
+        void setValor(string);
+		string getValor() const {
+            return horario;
+		}
+
+};
 
 
 

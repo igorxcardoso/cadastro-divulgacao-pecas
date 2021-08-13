@@ -1,16 +1,19 @@
 # depslib dependency file v1.0
-1628559068 source:/home/igor/Documentos/cadastro-divulgacao-pecas/src/dominios.cpp
+1628893369 source:/home/igor/Documentos/cadastro-divulgacao-pecas/src/dominios.cpp
 	<string>
 	<stdexcept>
 	<ctype.h>
 	<vector>
 	"dominios.h"
 
-1628559041 /home/igor/Documentos/cadastro-divulgacao-pecas/src/dominios.h
+1628893202 /home/igor/Documentos/cadastro-divulgacao-pecas/src/dominios.h
 	<iostream>
 	<string>
 
-1628558895 source:/home/igor/Documentos/cadastro-divulgacao-pecas/src/main.cpp
+1628885258 source:/home/igor/Documentos/cadastro-divulgacao-pecas/src/main.cpp
 	<iostream>
+	"dominios.h"
+
+1628893223 source:/home/igor/Documentos/cadastro-divulgacao-pecas/src/entidades.cpp
 	"dominios.h"
 
