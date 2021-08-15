@@ -17,3 +17,12 @@
 1628893223 source:/home/igor/Documentos/cadastro-divulgacao-pecas/src/entidades.cpp
 	"dominios.h"
 
+1628904016 source:/home/igor/Documentos/cadastro-divulgacao-pecas/src/teste.cpp
+	"teste.h"
+
+1628904031 /home/igor/Documentos/cadastro-divulgacao-pecas/src/teste.h
+	"entidades.h"
+
+1628893635 /home/igor/Documentos/cadastro-divulgacao-pecas/src/entidades.h
+	"dominios.h"
+

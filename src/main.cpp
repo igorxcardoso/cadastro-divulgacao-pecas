@@ -32,7 +32,8 @@ int main(void) {
 
 
     TesteSessao teste_sessao;
-    teste_sessao.sucesso("22/99/1231", "22:00");
+    if(teste_sessao.teste("22/99/1231", "22:00")) cout << "\tTeste classe Sessao: True\n";
+    if(teste_sessao.teste("22/99/1231", "22:00")) cout << "\tTeste classe Sessao: False\n";
 
     return 0;
 }

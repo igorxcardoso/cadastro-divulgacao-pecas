@@ -34,7 +34,11 @@
 		</Compiler>
 		<Unit filename="dominios.cpp" />
 		<Unit filename="dominios.h" />
+		<Unit filename="entidades.cpp" />
+		<Unit filename="entidades.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="teste.cpp" />
+		<Unit filename="teste.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />

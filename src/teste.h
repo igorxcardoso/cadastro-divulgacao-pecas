@@ -6,7 +6,7 @@
 class TesteSessao {
     public:
         //bool sucesso(const Data &valor, const Horario &horario);
-        bool sucesso(string, string);
+        bool teste(string, string);
 };
 
 
