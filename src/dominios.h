@@ -100,5 +100,4 @@ class Horario {
 };
 
 
-
 #endif // DOMINIOS_H_INCLUDED

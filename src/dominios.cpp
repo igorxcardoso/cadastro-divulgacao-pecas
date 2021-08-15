@@ -93,23 +93,40 @@ void Data::setValor(string valor) {
     this->data = valor;
 }
 
-
 //Email
 bool Email::validarValor(string valor) {
-    return true;
+    int i, parte_local=0, dominio=0, tamanho=valor.length();
+    bool flag=false;
+
+    if(valor[0] != '.' && valor[tamanho-1] != '.') {
+        for(i = 0; i < tamanho; i++) {
+            if(valor[i] != '@' && !flag)
+                parte_local++;
+            else if(valor[i] != '@' && flag == false) parte_local++;
+            else {
+                dominio++;
+                flag = true;
+            }
+        }
+
+        if(parte_local <= 64 && dominio <= 255) return true;
+    }
+    throw invalid_argument("Erro no parametro da classe Email.");
 }
+
 void Email::setValor(string valor) {
     validarValor(valor);
+    cout << "Fioiii";
     this->email = valor;
 }
 
-
+// 00, 01, 02, 03, 04, 05
 //Horario
 bool Horario::validarValor(string valor) {
     return true;
 }
+
 void Horario::setValor(string valor) {
     validarValor(valor);
     this->horario = valor;
 }
-
