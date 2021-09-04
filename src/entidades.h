@@ -4,6 +4,11 @@
 #include "dominios.h"
 
 
+//! Sessão é uma classe muito legal, e que tem muitas coisas legais
+//! Muita coisa de boa acontece aqui
+//! Aqui fica muita coisa boa
+
+
 class Sessao {
     private:
         Data data;

@@ -11,7 +11,9 @@
 
 using namespace std;
 
-
+//! Capacidade é uma classe muito legal, e que tem muitas coisas legais
+//! Muita coisa de boa acontece aqui
+//! Aqui fica muita coisa boa
 class Capacidade {
     private:
         int capacidade;
@@ -25,6 +27,10 @@ class Capacidade {
 };
 
 
+
+//! Capacidade é uma classe muito legal, e que tem muitas coisas legais
+//! Muita coisa de boa acontece aqui
+//! Aqui fica muita coisa boa
 class Cargo {
     private:
         string cargo;
@@ -38,6 +44,10 @@ class Cargo {
 };
 
 
+//! Classificacao é uma classe muito legal, e que tem muitas coisas legais
+//! Muita coisa de boa acontece aqui
+//! Aqui fica muita coisa boa
+
 class Classificacao {
     private:
         string classificacao;
@@ -48,6 +58,11 @@ class Classificacao {
             return classificacao;
 		}
 };
+
+
+//! Codigo é uma classe muito legal, e que tem muitas coisas legais
+//! Muita coisa de boa acontece aqui
+//! Aqui fica muita coisa boa
 
 class Codigo {
     private:
@@ -60,6 +75,10 @@ class Codigo {
 		}
 };
 
+
+//! Data é uma classe muito legal, e que tem muitas coisas legais
+//! Muita coisa de boa acontece aqui
+//! Aqui fica muita coisa boa
 
 class Data {
     private:
@@ -74,6 +93,10 @@ class Data {
 };
 
 
+//! Email é uma classe muito legal, e que tem muitas coisas legais
+//! Muita coisa de boa acontece aqui
+//! Aqui fica muita coisa boa
+
 class Email {
     private:
         string email;
@@ -85,6 +108,11 @@ class Email {
                 return email;
             }
 };
+
+
+//! Horario é uma classe muito legal, e que tem muitas coisas legais
+//! Muita coisa de boa acontece aqui
+//! Aqui fica muita coisa boa
 
 class Horario {
     private:

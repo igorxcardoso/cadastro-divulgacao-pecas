@@ -15,6 +15,10 @@ using namespace std;
 //using std::string;
 
 
+
+//! Capacidade é uma classe muito legal, e que tem muitas coisas legais
+//! Muita coisa de boa acontece aqui
+//! Aqui fica muita coisa boa
 // Capacidade
 bool Capacidade::validarValor(int valor) {
     if(valor == 100 || valor == 200 || valor == 300 || valor == 400 || valor == 500)
@@ -27,6 +31,10 @@ void Capacidade::setValor(int valor) {
     this->capacidade = valor;
 }
 
+
+//! Capacidade é uma classe muito legal, e que tem muitas coisas legais
+//! Muita coisa de boa acontece aqui
+//! Aqui fica muita coisa boa
 // Cargo
 bool Cargo::validarValor(string valor) {
     //vector<string> cargos = {"ator", "cenógrafo", "figurinista", "maquiador", "sonoplasta", "iluminador"};
@@ -46,6 +54,10 @@ void Cargo::setValor(string valor) {
     this->cargo = valor;
 }
 
+
+//! Capacidade é uma classe muito legal, e que tem muitas coisas legais
+//! Muita coisa de boa acontece aqui
+//! Aqui fica muita coisa boa
 // Classificacao
 bool Classificacao::validarValor(string classificacao) {
     if(classificacao.compare("livre") == 0 || classificacao.compare("10") == 0 ||
@@ -60,6 +72,10 @@ void Classificacao::setValor(string classificacao) {
 	this->classificacao = classificacao;
 }
 
+
+//! Capacidade é uma classe muito legal, e que tem muitas coisas legais
+//! Muita coisa de boa acontece aqui
+//! Aqui fica muita coisa boa
 // Codigo
 bool Codigo::validarValor(string valor) {
     int i, maiuscula=0, numero=0, tamanho = valor.length();
@@ -84,6 +100,10 @@ void Codigo::setValor(string valor) {
     this->codigo = valor;
 }
 
+
+//! Capacidade é uma classe muito legal, e que tem muitas coisas legais
+//! Muita coisa de boa acontece aqui
+//! Aqui fica muita coisa boa
 //Data
 bool Data::validarValor(string valor) {
     return true;

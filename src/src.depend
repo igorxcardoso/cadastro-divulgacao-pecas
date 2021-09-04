@@ -44,3 +44,32 @@
 1628608483 a5a08ff32a69316224183fc254d72f4512027
 	"dominios.h"
 
+1629852616 source:c:\users\windoows7\desktop\cadastro-divulgacao-pecas\src\dominios.cpp
+	<string>
+	<stdexcept>
+	<ctype.h>
+	<vector>
+	"dominios.h"
+
+1629850071 c:\users\windoows7\desktop\cadastro-divulgacao-pecas\src\dominios.h
+	<iostream>
+	<string>
+
+1629846235 source:c:\users\windoows7\desktop\cadastro-divulgacao-pecas\src\entidades.cpp
+	"dominios.h"
+
+1629846235 source:c:\users\windoows7\desktop\cadastro-divulgacao-pecas\src\main.cpp
+	<iostream>
+	"dominios.h"
+	"entidades.h"
+	"teste.h"
+
+1629852617 c:\users\windoows7\desktop\cadastro-divulgacao-pecas\src\entidades.h
+	"dominios.h"
+
+1629846235 c:\users\windoows7\desktop\cadastro-divulgacao-pecas\src\teste.h
+	"entidades.h"
+
+1629846235 source:c:\users\windoows7\desktop\cadastro-divulgacao-pecas\src\teste.cpp
+	"teste.h"
+
